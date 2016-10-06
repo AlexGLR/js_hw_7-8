@@ -1,0 +1,63 @@
+@import url(normalize.css);
+
+
+html {
+    font-family: Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+form {
+    width: 550px;
+    margin: 20px auto;
+    padding: 20px;
+    font-size: 14px;
+}
+
+label {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 200px;
+    height: 30px;
+    padding: 10px;
+    border: 1px solid #343636;
+    background-color: white;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+span {
+    display: inline-block;
+    width: 70px;
+    color: black;
+}
+
+.tooltip {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    width: 250px;
+    padding: 6px;
+    border: 1px solid #343636;
+    background-color: lightgrey;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    width: 135px;
+    margin-top: 30px;
+    margin-left: 76px;
+    padding: 5px;
+    border: 1px solid #343636;
+    border-radius: 15px;
+    outline: 0;
+    background-color: grey;
+    font-weight: bold;
+}
